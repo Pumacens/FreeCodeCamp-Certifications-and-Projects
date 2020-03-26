@@ -6,7 +6,7 @@ This repo contains my implementations of the projects for severa certification p
 
 
 
-## [Projects](./Projects)
+## Projects
 
 - [Responsive Web Design](./Projects/Responsive-Web-Design)
 - [JavaScript Algorithms and Data Structures Projects](./Projects/JavaScript-Algorithms-and-Data-Structures-Projects)
