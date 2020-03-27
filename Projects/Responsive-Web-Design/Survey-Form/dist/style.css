@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background: linear-gradient(rgba(81, 126, 87, 0.76), rgba(122, 196, 132, 0.384)), url("https://envato-shoebox-0.imgix.net/454e/9bb1-b91e-47b4-a636-0085cf3b2d3b/u5-23.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=9eeb5338bcd8c02a6473205162379da9") fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size: 18px;
+    font-family: helvetica;
+    font-weight: 600;
+    color: white;
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+p{
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    margin: 10px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 775px;
+    width: 90%;
+    padding: 0 40px;
+    padding-top: 45px;
+    padding-bottom: 70px;
+
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+}
+
+input, #dropdown, textarea{
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-top: 7px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+label{
+    display: block;
+}
+
+#email, #number, #name, #dropdown, textarea{
+    display:block;
+    margin-bottom: 35px;
+    width: 95%;
+}
+
+fieldset{
+    margin-bottom: 35px;
+    padding: 5px 0;
+}
+
+fieldset input{
+    margin-top: 10px;
+}
+
+fieldset label, #dropdown {
+    margin-left: 10px;
+}
+
+textarea{
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+#submit{
+    width:100%;
+    border-radius: 2px;
+    background-color: rgb(55,175,101);
+    border-width: 0;
+    color: white;
+    font-weight: inherit;
+
+}
+@media screen and (max-width: 767px){
+    
+    form{
+        max-width: 533px;
+        width: 100%;
+    }
+}

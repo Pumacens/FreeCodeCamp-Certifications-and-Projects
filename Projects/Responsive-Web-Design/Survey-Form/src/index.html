@@ -1,0 +1,78 @@
+<main>
+        <header>
+            <h1 id="title">Reco-Forest</h1>
+            <p id="description">Gracias por tomarte el tiempo y ayudarnos a mejorar la plataforma</p>
+        </header>
+        <form action="" id="survey-form">
+    
+            <label id="name-label" for="name">
+                Nombre
+                <input type="text" id="name" placeholder="Escriba su nombre" required>
+            </label>
+    
+            <label id="email-label" for="email">
+                Correo electronico
+                <!-- Create an HTML5 Validation Error for email -->
+                <input type="email" id="email" placeholder="Escriba su correo electronico" required>
+            </label>
+    
+            <label id="number-label" for="number">
+                Edad (opcional)
+                <!-- Create an HTML5 Validation Error for age (must be num) -->
+                <!-- And age must be between min and max -->
+                <input type="number" id="number" placeholder="Edad" min="18" max="80">
+            </label>
+    
+            <fieldset>
+                <legend>¿Que opción describe mejor tu rol?</legend>
+                <select name="" id="dropdown">
+                    <option value="a">Estudiante</option>
+                    <option value="b">Trabajo Full-Time</option>
+                    <option value="c">Prefiero no decirlo</option>
+                    <option value="d">Esudiante Full-Time</option>
+                    <option value="e">Otro</option>
+                </select>
+            </fieldset>
+    
+            <fieldset>
+                <legend>¿Recomendarías Reco-Forest a un amigo?</legend>
+                <label for="option-a">
+                    <input id="option-a" type="radio" name="opinion" value="definitivamente"> Definitivamente 
+                </label>
+                <label for="option-b">
+                    <input id="option-b" type="radio" name="opinion" value="tal-vez"> Tal vez
+                </label>
+                <label for="option-c">
+                    <input id="option-c" type="radio" name="opinion" value="no-estoy-seguro"> No estoy seguro
+                </label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Que te gustaría ver que mejorara en la plataforma?</legend>
+                &nbsp; <span style="font-size: 13px; font-style:italic;">(Selecciona todas las que apliquen)</span>
+                <label for="check-1">
+                    Variedad de publicaciones
+                    <input type="checkbox" id="check-1" value="item-1" />
+                </label>
+                <label for="check-2">
+                    Item 2
+                    <input type="checkbox" id="check-2" value="item-1" />
+                </label>
+    
+                <label for="check-3">
+                    Item 3
+                    <input type="checkbox" id="check-3" value="item-1" />
+                </label>
+            </fieldset>
+    
+            <label for="comentario">
+                ¿Tienes algún comentario o sugerencia?
+                <textarea name="" id="comentario" cols="30" rows="10" wrap="hard" placeholder="Escribe tus comentarios acá..."></textarea>
+            </label>
+
+            <label for="submit">
+                <input type="submit" name="" id="submit">
+            </label>
+    
+        </form>
+    </main>
