@@ -9,3 +9,7 @@ Here are the files for the projects in the Responsive Web Design Certification
 - ### Survey Form
     - [CodePen](https://codepen.io/pumacens/pen/KKprYZM)
     - [Files](./Survey-Form)
+    
+- ### Product Landing Page
+    - [CodePen](https://codepen.io/pumacens/pen/bGdOOJN)
+    - [Files](./Product-Landing-Page)
