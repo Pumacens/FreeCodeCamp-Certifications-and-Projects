@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Helvetica;
+}
+
+code{
+    font-family: monospace;
+}
+
+
+a{
+    color: grey;
+    text-decoration: none;
+}
+
+
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 350px;
+    height: 100vh;
+    border-right: solid 4px grey;
+    overflow-y: scroll;
+
+} #navbar li{
+    padding: 10px 25px;
+    border-bottom: solid 1px grey;
+
+} #navbar header{
+    padding: 20px 25px;
+    border-bottom: solid 1px grey;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+
+#sections-wrapper{
+    margin-left: 400px;
+    margin-top: 40px;
+    margin-right: 40px;
+
+}section header{
+    margin: 20px 0px;
+
+}.section-content{
+    margin-left: 15px;
+    color: rgb(104, 104, 104);
+    margin-right: 25px;
+
+}section p{
+    margin-bottom: 20px;
+    line-height: 22px;
+    text-align: justify;
+
+}section code{
+    font-size: 1em;
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display:block;
+
+} section ul li{
+    list-style-type: disc;
+    margin-left: 60px;
+    padding: 10px 0px;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 600px){
+    #navbar{
+        position: relative;
+        width: 100%;
+        height: 200px;
+        overflow-y: unset;
+        border-right: none;
+
+        
+    } #navbar header{
+        text-align: center;
+    }
+
+    #navbar ul{
+        height: 150px;
+        overflow-y: scroll;
+        border: solid 3px rgb(82, 82, 82);
+
+    }
+
+    #sections-wrapper{
+        margin-left: 20px;
+        width: 95%;
+    }
+
+}
