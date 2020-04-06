@@ -2,7 +2,7 @@
 
 This repo contains my implementations of the projects for severa certification programs in Free Code Camp.
 
-## [Certifications](./Certifications-files)
+## Certifications
 - [Responsive Web Design](https://www.freecodecamp.org/certification/pumascens/responsive-web-design)
 
 
